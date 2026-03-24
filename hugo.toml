@@ -13,7 +13,7 @@
 # website title
 title = "VapeMaster - 电子烟专业测评"
 # Hostname (and path) to the root
-baseURL = "https://vape-review.pages.dev"
+baseURL = "http://localhost:1313"
 # theme list
 theme = ["FixIt"] 
 # enable in your site config file
@@ -68,18 +68,33 @@ quality = 75
 
 [menus]
 
-[[menus.main]]
-identifier = "archives"
-parent = ""
-# you can add extra information before the name (HTML format is supported), such as icons
-pre = ""
-# you can add extra information after the name (HTML format is supported), such as icons
-post = ""
-name = "Archives"
-url = "/archives/"
-# title will be shown when you hover on this menu link
-title = ""
-weight = 1
+# -----------------------------------------------------------------------------
+# 导航菜单配置
+# -----------------------------------------------------------------------------
+
+[[menu.main]]
+  identifier = "posts"
+  pre = "<i class='fa-solid fa-pen-fancy fa-fw' aria-hidden='true'></i> "
+  name = "测评文章"
+  url = "/posts/"
+  title = "查看所有详细评测内容"
+  weight = 1
+
+[[menu.main]]
+  identifier = "categories"
+  pre = "<i class='fa-solid fa-tags fa-fw' aria-hidden='true'></i> "
+  name = "产品分类"
+  url = "/categories/"
+  title = "按品牌或系列浏览 (如 ICEMAX, LAMI)"
+  weight = 2
+
+[[menu.main]]
+  identifier = "archives"
+  pre = "<i class='fa-solid fa-box-archive fa-fw' aria-hidden='true'></i> "
+  name = "测评归档"
+  url = "/archives/"
+  title = "按时间线查看测评历史"
+  weight = 3
 
 # FixIt 0.2.14 | NEW add user-defined content to menu items
 [menus.main.params]
