@@ -1,0 +1,11 @@
+<div class="vape-specs" style="background: #f8fafc; border: 2px solid #e2e8f0; border-radius: 10px; padding: 1.5rem; margin: 1rem 0;">
+    <h4 style="margin-top: 0; border-bottom: 2px solid #2563eb; display: inline-block;">📋 核心参数对比</h4>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px;">
+        <div><b>品牌:</b> {{ .Get "brand" }}</div>
+        <div><b>型号:</b> {{ .Get "model" }}</div>
+        <div><b>口数:</b> <span style="color: #ef4444; font-weight: bold;">{{ .Get "puffs" }}</span></div>
+        <div><b>电池:</b> {{ .Get "battery" }}</div>
+        <div><b>阻值:</b> {{ .Get "resistance" }}</div>
+        <div><b>尼古丁:</b> {{ .Get "nic" }}</div>
+    </div>
+</div>

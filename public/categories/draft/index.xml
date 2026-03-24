@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Draft - 分类 - VapeMaster - 电子烟专业测评</title>
+    <link>http://localhost:1313/categories/draft/</link>
+    <description>专业的电子烟产品参数与深度测评，涵盖 ICEMAX、LAMI 等主流品牌。</description>
+    <generator>Hugo 0.158.0 &amp; FixIt v0.4.5-20260320183805-d5aa0131</generator>
+    <language>zh-cn</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/draft/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

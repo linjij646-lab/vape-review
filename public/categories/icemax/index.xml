@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICEMAX - 分类 - VapeMaster - 电子烟专业测评</title>
+    <link>http://localhost:1313/categories/icemax/</link>
+    <description>专业的电子烟产品参数与深度测评，涵盖 ICEMAX、LAMI 等主流品牌。</description>
+    <generator>Hugo 0.158.0 &amp; FixIt v0.4.5-20260320183805-d5aa0131</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 24 Mar 2026 10:05:36 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/icemax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICEMAX Turbo 12,000 Puffs 深度评测</title>
+      <link>http://localhost:1313/posts/first-review/</link>
+      <pubDate>Tue, 24 Mar 2026 09:24:39 +0800</pubDate>
+      <guid>http://localhost:1313/posts/first-review/</guid>
+      <category domain="http://localhost:1313/categories/icemax/">ICEMAX</category>
+      <description>ICEMAX Turbo 采用双发热丝技术，提供高达 12,000 口的极致体验，搭载 650mAh 电池及智能显示屏。</description>
+    </item>
+  </channel>
+</rss>
